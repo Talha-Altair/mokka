@@ -1,0 +1,109 @@
+COLLEGE WEBSITE USING FRAMES,LIST AND FORM TAGS
+website.html:
+<html>
+<frameset rows="37%,73%">
+<frame src="frame1.html"/>
+<frame src="frame2.html"/>
+</framest>
+</html>
+	
+frame1.html:
+<html>
+<body style="background-color:darkblue">
+<div>
+<marquee>
+<imgsrc="cres.png" height="160">
+<imgsrc="download.jpg" height="160" width="750">
+<imgsrc="download1.jpg" height="160" width="750">
+<imgsrc="download 2.jpg" height="160" width="750">
+</marquee>
+</div>
+</body>
+</html>
+
+frame2.html:
+<html>
+<body>
+<a href="home.html">HOME</a>&nbsp;
+<a href="depart.html">DEPARTMENTS</a>&nbsp;
+<a href="enroll.html">ENROLL</a>&nbsp;
+<p>
+	B.S. Abdur Rahman Crescent Institute of Science and Technology , formerly B. S. Abdur Rahman Crescent University, is a deemed to be university located at the state of Tamil Nadu, India. Previously functioning under Madras University (1984–2001) and Anna University (2001–09) as Crescent Engineering College, the institute gained deemed status in 2008–09. It is located in Vandalur near Tambaram, a suburban area of Chennai, India.
+</p>
+<h1>Crescent News</h1>
+<marquee behavior="scroll" direction="up" onmouseover="this.stop()" onmouseout="this.start()">
+	<p>Last Date for UG admissions:August 15,2019</p>
+	<p>B.Arch/B.Des summer redo Results-july 2019</p>
+	<p>Anti-Ragging committee-constituted-Reg</p>
+	</marquee>
+</body>
+</html>
+
+home.html:
+<html>
+<body>
+<p>
+B.S. Abdur Rahman Crescent Institute of Science and technology is a renowned Quality Leadership Institution located at the greenest spot of Chennai near Tambaram. Through our long history of 34 years of excellence, the Institution has offered access to a wide range of academic opportunities. With 48 programmes, grouped under 12 different Schools, 27 Undergraduate Programmes, 20 Postgraduate programmes, and Ph.D. (in all the departments), this institution is a rising stalwart in higher education with promising Quality, Security and Placement. We welcome students from all countries and our educational programmes are designed to equip the learners with virtual knowledge that helps them to achieve what they want to be and go where they want to go in the ladder of success. This institution is an intellectual destination that challenges conventional thinking and stimulates passion to redefine learning. The distinctive teaching at this institution makes the students and scholars to compete with themselves and each other. Apart from providing top-notch education, our green campus and well-planned student life are solely dedicated to making students utilize the ambiance to the fullest. Through our wide array of educational programmes and unique clubs to foster student development activities, we provide opportunities and experiences .
+</p>
+</body>
+</html>
+
+depart.html:
+<html>
+<body>
+<h1><center>ACADEMIC PROGRAMMES</center></h1>
+<ol>
+	<li><font color="Red">UNDERGRADUATE COURSES</font></li>
+	<ul>
+	<li>B.Tech(Aeronautical Engineering)</li>
+	<li>B.Tech(Automobile Engineering)</li>
+	<li>B.Tech(Civil Engineering)</li>
+	<li>B.Tech(Mechanical Engineering)</li>
+	<li>B.Tech(Polymer Engineering)</li>
+	<li>B.Tech(Electrical and Electronics Engineering)</li>
+	<li>B.Tech(Computer Science and Engineering)</li>
+	<li>B.Tech(Biotechnology)</li>
+	<li>B.Tech(Electronics and Instrumentation Engineering)</li>
+	<li>B.Tech(Information Technology)</li>
+	<li>B.Arch(Architecture)</li>
+	<li>B.A(Islamic studies)</li>
+	<li>B.pharm</li>
+	<li>B.com.LLB(Hons..)</li>
+	<li>BBA.LLB(Hons..)</li>
+	<li>BCA(Data Science)</li>
+	<li>BCA(Cloud Computing and Inormation Technology)</li>	
+	</ul>
+	<li><font color="red">POSTGRADUATE COURSES</font></li>
+	<ul>
+	<li>M.Tech(Construction Engineering and Project Management)</li>
+	<li>M.Tech(Structural Engineering)</li>
+	<li>M.Tech(Communication Systems)</li>
+	<li>M.Sc.(Chemistry)</li>
+	<li>M.Sc.(Biotechnology)</li>
+	<li>M.Sc.(Physics)</li>
+	</ul>
+</ol>
+</body>
+</html>
+
+enroll.html:
+<html>
+<body>
+<b>Enrollment Form</b></br>
+<form><p>
+First Name:<input type="text" name="firstname"/></p>
+<p>
+Last Name:<input type="text" name="lastname"/>
+</p>
+Gender</br>
+<input type="radio" name="sex" value="male"/>Male</br>
+<input type="radio" name="sex" value="female"/>Female<br/>
+course<br/>
+<input type="checkbox" name="course" value="CSE"/>Computer science and engineering<br/>
+<input type="checkbox" name="course" value="ECE"/>Electronics and communication engineering<br/>
+<br>
+<input type="Submit" value="submit"/>
+</form>
+</body>
+</html>
+diff --git a/website.html b/website.html
